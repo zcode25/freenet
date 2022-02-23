@@ -137,6 +137,18 @@ body {
 // harga
 .harga {
     @include card(2);
+
+    .info {
+        svg {
+            width: 20px;
+            color: orange;
+            
+            &.premium {
+                width: 20px;
+                color: $primary-color;
+            }
+        }
+    }
     
     .harga-list {
         color: #fff;

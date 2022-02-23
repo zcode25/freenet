@@ -107,6 +107,14 @@ body {
   box-shadow: 0px 8px 30px 0px rgba(42, 67, 113, 0.1);
   border-color: #5526ff;
 }
+.harga .info svg {
+  width: 20px;
+  color: orange;
+}
+.harga .info svg.premium {
+  width: 20px;
+  color: #5526ff;
+}
 .harga .harga-list {
   color: #fff;
   padding: 10px 30px;
